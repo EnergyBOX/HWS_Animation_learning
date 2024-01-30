@@ -10,14 +10,32 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button("Tap Me") {
+                // do nothing
+            }
+            .padding(50)
+            .background(.red)
+            .foregroundStyle(.white)
+            .clipShape(Circle())
         }
-        .padding()
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
